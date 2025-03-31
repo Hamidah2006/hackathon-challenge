@@ -69,6 +69,62 @@ ul {
 ul li {
     padding: 5px 0;
 }
+/* Projects Section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.projects-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.project {
+    border-left: 4px solid #007BFF;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.project h2 {
+    margin: 0;
+    color: #444;
+}
+
+.project p {
+    margin: 5px 0;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    .projects-container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .project h2 {
+        font-size: 18px;
+    }
+
+    .project p {
+        font-size: 14px;
+    }
+}
+
 /* Skills Section */
 .skills-container {
     display: flex;
@@ -134,4 +190,22 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+}/* Styling for the Download Link */
+.download-link a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.download-link a:hover {
+    background-color: green;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
